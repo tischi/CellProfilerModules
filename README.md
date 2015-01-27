@@ -26,6 +26,14 @@ The module is a simple extension of the original DisplayDataOnImage module. The 
 
 Note that ImageJ will __not__ display the numbers in the pdf images; so you have to open it with another viewer.
 
+### EnhanceEdgesPlus
+
+Current version has been tested with CellProfiler 2.1.1.
+
+This module appears in the "Image Processing" group of the CellProfiler modules.
+
+The module is a simple extension of the original EnhanceEdges module. The additional feature is a Gaussian variance filter, which gives a high response if there is a lot of intensity fluctuations around the given pixel. The motivation to implement this filter was in fact not to find edges but because background regions of an image typically show a low variance. Thus, one can threshold the Gaussian variance image (keeping the low values) to automatically find image background regions, which are important to have for automatically measuring the background intensity in an given image.
+
 
 
 
