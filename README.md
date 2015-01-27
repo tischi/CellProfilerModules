@@ -10,7 +10,7 @@ Christian "Tischi" Tischer (tischitischer@gmail.com)
 ## Installation
 
 - Start CellProfiler, go to "Preferences…" and change the "CellProfiler plugin directory" to an arbitrary folder on your computer (e.g. C:\myCellProfilerPlugins)
-- Download the CellProfiler module that you like from this website and put it into above folder
+- Download the CellProfiler module that you like from this website and put it into above folder (you should download the file ending on __.py__ and not the one ending on __.pyc__)
 - Now if you restart CellProfiler the module should appear in the list of modules that you can add to your pipeline
 
 
